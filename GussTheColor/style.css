@@ -1,0 +1,72 @@
+body{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#options-container > div{
+       height: 70px;
+       width: 70px;
+       margin: 5px;
+       border-radius: 10%;
+}
+
+
+body {
+       margin: 0;
+       font-family: 'Arial', sans-serif;
+   }
+   
+   .container {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+       grid-gap: 20px; /* Adjust the gap between grid items */
+       max-width: 800px; /* Adjust the maximum width of the container as needed */
+       margin: 50px auto; /* Adjust the margin as needed */
+   }
+   
+   .container > div {
+       text-align: center;
+       padding: 20px;
+       background-color: #f0f0f0; /* Optional background color */
+       border-radius: 8px; /* Optional border-radius */
+   }
+   
+   #options-container {
+       grid-column: span 3;
+       display: grid;
+       grid-template-columns: repeat(6 , 0fr);
+       width: 487px;
+       align-items: center;
+       justify-items: center;
+   }
+ 
+   .h1 {
+       position: absolute;
+       left: 614px;
+       top: 100px;
+       font-size: 25px;
+       color: firebrick;
+   }
+
+  body {
+       margin: 0;
+       font-family: 'Arial', sans-serif;
+   }
+   
+   .container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height: 100vh; /* Adjust the height as needed */
+   }
+   
+   .container > div {
+       text-align: center;
+       padding: 20px;
+   }
+   
+   #options-container {
+       max-width: 400px; /* Adjust the max-width as needed */
+       margin-top: 20px; /* Adjust the margin-top as needed */
+   }
+   
+   
